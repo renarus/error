@@ -1,0 +1,14 @@
+.section4{
+    .crs{
+        img{
+            height: 311px;
+        }
+    }
+    .carousel-indicators [data-bs-target]{
+        width: 14px;
+        height: 14px;
+        border-radius:100%;
+        border: 1px solid red;
+    }
+    
+}

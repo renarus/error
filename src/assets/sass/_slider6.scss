@@ -1,0 +1,34 @@
+.slider6{
+    display: flex;
+   align-items: center; 
+   justify-content: space-between;
+   transition: 1.2s;
+    .sliderr{
+        width: 44%;
+    //    justify-content: space-evenly;
+           img{
+           width: 380px;
+           height: 360px;
+        //    margin-left: -610px;
+       }
+       p{
+           font-family:cursive;
+
+       }
+    }
+  
+   h6{
+       width: 58%;
+       font-size: 20px;
+       margin-top: -70px;
+       font-weight: 400;
+       text-decoration: none;
+       transition: 1.2s;
+    //    transform: scale(0,1);
+      position: relative;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+   }
+ 
+  
+}

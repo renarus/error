@@ -1,0 +1,28 @@
+.card1{
+    // height:640px;
+    text-align: center;
+    transition: 1.2s;
+    p{
+       display: flex;
+       justify-content: center;
+    //    width: 300px;
+       align-items: center;
+    }
+   img{
+       width: 230px;
+       height: 340px;
+      
+   }
+ 
+   a{
+    background-color:#0cf581;
+    color:black;
+    transition: 1.2s;
+   &:hover{     
+    background-color: rgb(44, 46, 45);
+    color: white;
+   
+}
+}
+
+}

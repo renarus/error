@@ -1,0 +1,21 @@
+.slider3{
+    width: 320px;
+  
+ .texth3{
+     font-family: cursive;
+ }
+    img{
+        width: 280px;
+        height: 300px;
+        image-rendering: optimizeSpeed;
+        display: flex;
+        justify-content: center;
+    }
+    .slick-dots {
+        width: 62%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}

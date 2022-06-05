@@ -1,0 +1,29 @@
+.section6{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+        .r{
+        display: flex;
+        justify-content: space-between;
+        width: 93%;
+        .r1{
+           transition: 0.8s;
+           box-shadow: 0 0 11px;
+           position: relative;
+           transition: 1.2s;
+           img{
+              width: 393px;
+              height: 314px;
+           }
+        &:hover{
+        //   filter: blur(2px); 
+        top: 15px;
+        }
+     }
+       
+     }
+     
+}

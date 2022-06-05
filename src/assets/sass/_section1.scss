@@ -1,0 +1,111 @@
+.section1 {
+    .navicon {
+        background-color: rgb(12, 245, 129);
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: flex-end;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+
+        ul {
+            li {
+                width: 170px;
+                a{
+                    transition: 1.2s;
+                    
+                    &:hover{
+                        color: red;
+                        text-shadow: 0 0 10px;
+                    }
+                }
+               
+            }
+        }
+
+        .con {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navcart {
+            margin-top: 6px;
+            list-style: none;
+            text-decoration: none;
+            position: relative;
+          
+            p {
+                position: absolute;
+                bottom: -4px;
+                left: 11px;
+                color: white;
+                border-radius: 100%;
+                width: 18px;
+                height: 18px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(255, 17, 0, 0.719);
+                margin-left: -10px;
+            }
+
+            i {
+                font-size: 21px;
+                color: white;
+                margin-left: -16px;
+               position: relative;
+
+            }
+        }
+
+        .drp {
+            width:230px;
+            display: flex;
+            margin-top: -1px;
+            justify-content: center;
+            border: none;
+            button {
+                font-size: 20px;
+                width: 100%;
+                border: none;
+            }
+            .btn .dropdown-toggle{
+                border: none;
+            }
+            .flagtext {
+                font-size: 14px;
+                // width: 100%;
+                img{
+                    width: 30px;
+                    height: 20px;
+                }
+            }
+            .dropdown-menu .show{
+                width: 100%;
+                border: none;
+            }
+            .dropdown-item{
+                width:158px;
+            }
+        }
+    }
+
+    .nav-link {
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+
+    .navbar>.container-fluid {
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+    }
+}
